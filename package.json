@@ -1,0 +1,29 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Application for changing an employee database",
+  "main": "employee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node employee.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronealdama/Employee-Tracker.git"
+  },
+  "keywords": [
+    "npm",
+    "start"
+  ],
+  "author": "Aaron Ealdama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronealdama/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/aaronealdama/Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1",
+    "console.table": "^0.10.0"
+  }
+}
